@@ -8,7 +8,7 @@ MAINTAINER Jordan Schatz "jordan@noionlabs.com"
 
 RUN apt-get update; apt-get install curl unzip;
 
-ENV DATOMIC_VERSION 0.9.5173
+ENV DATOMIC_VERSION 0.9.5206
 
 RUN echo Downloading version ${DATOMIC_VERSION}
 RUN curl --progress-bar --location\
